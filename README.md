@@ -8,9 +8,9 @@
 
 ### `<input class="checkbox" type="checkbox">`
 ### `<label class="title">Изучить JavaScript</label>`
-### `<input class="textfield" type="text">`
-### `<button class="edit">Изменить</button>`
-### `<button class="delete">Удалить</button>`
+###<input class="textfield" type="text">`
+##<button class="edit">Изменить</button>`
+#<button class="delete">Удалить</button>`
 
 listItem.appendChild(checkbox);
 <input class="checkbox" type="checkbox">
