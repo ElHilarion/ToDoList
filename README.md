@@ -18,22 +18,3 @@
   
 - delete, кнопка удаления задачи;
   
-
-  
-
-
-
-<--! listItem.appendChild(checkbox);
-<input class="checkbox" type="checkbox">
-
-listItem.appendChild(label);
-<label class="title">Изучить JavaScript</label>
-
-listItem.appendChild(editInput);
-<input class="textfield" type="text">
-
-listItem.appendChild(editButton);
-<button class="edit">Изменить</button>
-
-listItem.appendChild(deleteButton)
-<button class="delete">Удалить</button> -->
