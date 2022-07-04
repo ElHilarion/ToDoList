@@ -50,6 +50,6 @@ listItem с классом todo-item, наш конечный родительс
 
 ## Доступ к DOM-элементам (html-разметка страницы)
 
-С помощью "getElementById" и "querySelectorAll" получаем доступ соответственно по id и class элемента.   
+С помощью "getElementById" и "querySelectorAll" получаем доступ к DOM-элементам соответственно по id и class.   
 
 ![Доступ к DOM-элементам](https://github.com/ElHilarion/ToDoList/blob/main/id-class.png)
