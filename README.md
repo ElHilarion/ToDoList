@@ -4,19 +4,26 @@
 
 Создаем в начале Function Declaration "createTodoItem". Функция, внутри которой с помощью Function Expression создаем элементы нашей будущей заметки. 
 
-Нам необходимо создавать новый элемент <li> списка <ul> при добавлении новой задачи. 
+Каждый раз мы должны создавать новый элемент <li> списка <ul> при добавлении новой задачи. Для чего применяем метод document.createElement(tag), где вместо (tag), прописываем тег каждого под-элемента, который мы добовляем в элемент списка.
 
-<input class="checkbox" type="checkbox">
+Соответственно необходимо создать следующие под-элементы списка: 
   
-<label class="title">Изучить JavaScript</label>
+- checkbox, который будет зачеркивать задачу, если она выполнена;
   
-<input class="textfield" type="text">
+- title, который будет принимать текст задачи и показывать его;
   
-<button class="edit">Изменить</button>
+- textfield, само поля ввода задачи;
   
-<button class="delete">Удалить</button>`
+- edit, кнопка редактирования задачи;
+  
+- delete, кнопка удаления задачи;
+  
 
-listItem.appendChild(checkbox);
+  
+
+
+
+<--! listItem.appendChild(checkbox);
 <input class="checkbox" type="checkbox">
 
 listItem.appendChild(label);
@@ -29,4 +36,4 @@ listItem.appendChild(editButton);
 <button class="edit">Изменить</button>
 
 listItem.appendChild(deleteButton)
-<button class="delete">Удалить</button>
+<button class="delete">Удалить</button> -->
