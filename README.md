@@ -6,7 +6,7 @@
 
 Нам необходимо создавать новый элемент <li> списка <ul> при добавлении новой задачи. 
 
-`<input class="checkbox" type="checkbox">
+<input class="checkbox" type="checkbox">
   
 <label class="title">Изучить JavaScript</label>
   
