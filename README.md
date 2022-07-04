@@ -24,11 +24,11 @@
   
 - delete, кнопка удаления задачи.
 
-![Под-элементы](https://github.com/ElHilarion/ToDoList/blob/main/listItem.png)
+![listItem](https://github.com/ElHilarion/ToDoList/blob/main/listItem.png)
 
 listItem с классом todo-item, наш конечный родительский элемент, в который мы будем добавлять все под-элементы. Используем метод appendChild(function). Где вместо "function" мы вставляем название каждой функции под-элемента.
 
-![Под-элементы](https://github.com/ElHilarion/ToDoList/blob/main/appendChild.png)
+![appendChild](https://github.com/ElHilarion/ToDoList/blob/main/appendChild.png)
 
 ## Привязка событий "bindEvents"
 
@@ -40,3 +40,16 @@ listItem с классом todo-item, наш конечный родительс
 
 - deleteButton, удаление задачи.
 
+## Наши функции-действия:
+
+- addTodoItem, добавление задачи;
+
+- editTodoItem, редактирование задачи;
+
+- deleteTodoItem, удаление задачи.
+
+## Доступ к DOM-элементам (html-разметка страницы)
+
+С помощью "getElementById" и "querySelectorAll" получаем доступ соответственно по id и class элемента.   
+
+![Доступ к DOM-элементам](https://github.com/ElHilarion/ToDoList/blob/main/id-class.png)
